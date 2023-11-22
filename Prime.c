@@ -7,9 +7,8 @@ int main()
     {
         if(n%i==0)
         {
-            count++;
+        count++;
         }
-        
     }
     if(count==2)
     {
@@ -19,5 +18,4 @@ int main()
     {
         printf("Not Prime");
     }
-    
 }
