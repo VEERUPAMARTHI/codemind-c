@@ -6,16 +6,16 @@ int main()
     int m=n;
     while(m>0)
     {
-       int r=m%10;
-        rev=rev*10+r;
+        int r=m%10;
+        rev = rev*10+r;
         m=m/10;
     }
     if(n==rev)
     {
-        printf("Palindrome");
+        printf("True");
     }
     else
     {
-        printf("Not Palindrome");
+        printf("False");
     }
 }
